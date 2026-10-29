@@ -1,0 +1,58 @@
+rgb epoch 1: loss 0.828  test acc 0.7994  (392s)
+rgb epoch 2: loss 0.523  test acc 0.8537  (369s)
+rgb epoch 3: loss 0.403  test acc 0.8963  (336s)
+rgb epoch 4: loss 0.324  test acc 0.9150  (328s)
+rgb epoch 5: loss 0.283  test acc 0.9231  (330s)
+rgb epoch 6: loss 0.248  test acc 0.9356  (329s)
+rgb epoch 7: loss 0.206  test acc 0.9461  (346s)
+rgb epoch 8: loss 0.180  test acc 0.9604  (321s)
+rgb epoch 9: loss 0.159  test acc 0.9591  (389s)
+rgb epoch 10: loss 0.143  test acc 0.9654  (340s)
+rgb epoch 11: loss 0.121  test acc 0.9674  (420s)
+rgb epoch 12: loss 0.121  test acc 0.9706  (433s)
+                      precision    recall  f1-score   support
+
+          AnnualCrop      0.957     0.960     0.958       600
+              Forest      0.993     0.990     0.992       600
+HerbaceousVegetation      0.944     0.962     0.953       600
+             Highway      0.980     0.962     0.971       500
+          Industrial      0.980     0.986     0.983       500
+             Pasture      0.972     0.958     0.965       400
+       PermanentCrop      0.959     0.942     0.951       500
+         Residential      0.992     0.993     0.993       600
+               River      0.946     0.954     0.950       500
+             SeaLake      0.980     0.988     0.984       600
+
+            accuracy                          0.971      5400
+           macro avg      0.970     0.969     0.970      5400
+        weighted avg      0.971     0.971     0.971      5400
+
+all13 epoch 1: loss 0.595  test acc 0.8526  (427s)
+all13 epoch 2: loss 0.315  test acc 0.9456  (369s)
+all13 epoch 3: loss 0.237  test acc 0.9528  (350s)
+all13 epoch 4: loss 0.205  test acc 0.9315  (375s)
+all13 epoch 5: loss 0.176  test acc 0.9561  (378s)
+all13 epoch 6: loss 0.150  test acc 0.9583  (435s)
+all13 epoch 7: loss 0.132  test acc 0.9709  (443s)
+all13 epoch 8: loss 0.115  test acc 0.9659  (411s)
+all13 epoch 9: loss 0.100  test acc 0.9754  (374s)
+all13 epoch 10: loss 0.087  test acc 0.9824  (393s)
+all13 epoch 11: loss 0.074  test acc 0.9828  (401s)
+all13 epoch 12: loss 0.068  test acc 0.9824  (389s)
+                      precision    recall  f1-score   support
+
+          AnnualCrop      0.961     0.985     0.973       600
+              Forest      0.995     0.998     0.997       600
+HerbaceousVegetation      0.980     0.975     0.977       600
+             Highway      0.994     0.956     0.975       500
+          Industrial      0.984     0.992     0.988       500
+             Pasture      0.965     0.960     0.962       400
+       PermanentCrop      0.980     0.962     0.971       500
+         Residential      0.993     0.997     0.995       600
+               River      0.969     0.994     0.981       500
+             SeaLake      0.998     0.993     0.996       600
+
+            accuracy                          0.982      5400
+           macro avg      0.982     0.981     0.981      5400
+        weighted avg      0.983     0.982     0.982      5400
+

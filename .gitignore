@@ -1,0 +1,7 @@
+data/raw/
+data/cache/
+__pycache__/
+.ipynb_checkpoints/
+*.zip
+data/mine/*.tif
+results/mine/pred_map.npy
